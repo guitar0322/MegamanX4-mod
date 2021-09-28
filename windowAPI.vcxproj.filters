@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{d4228325-ab86-4575-8d38-59949d73a0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{84513b37-b08c-49e4-bd15-6f8f6752b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8785790c-f93f-411d-90ff-bd2e05bd6334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{ddfb3dc3-ec5a-4752-880c-db14429b78a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{dbe4a488-41b4-49cf-8cff-49dbace1d532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component">
+      <UniqueIdentifier>{f6f44e54-5245-4db6-b5f2-0a4dda89e36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object">
+      <UniqueIdentifier>{dc9b2554-a05a-4b3c-813c-b56e0564ac98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\image">
+      <UniqueIdentifier>{73affc36-76a7-43ee-9dc2-13a65e5a5209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{0a8350f4-ba39-42cd-a626-9a78e0d36a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\Common">
+      <UniqueIdentifier>{229fdfbc-5173-455a-8bf4-4684d54df950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state\rockman">
+      <UniqueIdentifier>{84be66f9-e7fe-444f-add6-1dc7033fbb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state\colonel">
+      <UniqueIdentifier>{4113e4c2-f461-4c6b-80ed-f526c16505f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state\soldier">
+      <UniqueIdentifier>{953858f0-314c-476f-978e-a5e078aab789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state\trapblast">
+      <UniqueIdentifier>{8cb42f61-c4a7-4158-a8fe-f25d718ab194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\soldier">
+      <UniqueIdentifier>{46d31a02-55ee-4a1b-bc81-0a13e77fbb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\trap">
+      <UniqueIdentifier>{b5761e17-b552-4abb-84eb-989ecacc08dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\projectile">
+      <UniqueIdentifier>{107a3668-3fc2-4328-af72-8811e40fd5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\effect">
+      <UniqueIdentifier>{c11ab823-650b-42c3-8913-56e796616b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\enemy">
+      <UniqueIdentifier>{cd4f8088-7c3c-4a10-8932-f673561bbfea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Component\ui">
+      <UniqueIdentifier>{540821e7-4d0e-470e-944e-2028e6878a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\Component\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cam.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TagManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimObject.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectObj.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControler.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Slope.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>2DGameFramework\Component\image</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundControl.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMovement.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="DashState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="FallState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="RunState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="WallJumpState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="WallState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelIdle.h">
+      <Filter>state\colonel</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelDash.h">
+      <Filter>state\colonel</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelMelee.h">
+      <Filter>state\colonel</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelRange.h">
+      <Filter>state\colonel</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelState.h">
+      <Filter>state\colonel</Filter>
+    </ClInclude>
+    <ClInclude Include="HitState.h">
+      <Filter>state\rockman</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierAttack.h">
+      <Filter>state\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierIdle.h">
+      <Filter>state\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierState.h">
+      <Filter>state\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierThrow.h">
+      <Filter>state\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBlastAttack.h">
+      <Filter>state\trapblast</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBlastIdle.h">
+      <Filter>state\trapblast</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBlastState.h">
+      <Filter>state\trapblast</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileObj.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="HealPack.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RockMan.h">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.h">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBehavior.h">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnBehavior.h">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBehavior.h">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBehavior.h">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateBomb.h">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBlastProjectile.h">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightProjectile.h">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeOverlap.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathBubble.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlap.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowManager.h">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Colonel.h">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCarrier.h">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCarrierSpawner.h">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBlast.h">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ColonelHpBar.h">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning.h">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\Component\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cam.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBase.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TagManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimObject.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectObj.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfo.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControler.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Slope.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>2DGameFramework\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>2DGameFramework\Component\image</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundControl.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMovement.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="DashState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="FallState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="RunState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="WallJumpState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="WallState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelDash.cpp">
+      <Filter>state\colonel</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelIdle.cpp">
+      <Filter>state\colonel</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelMelee.cpp">
+      <Filter>state\colonel</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelRange.cpp">
+      <Filter>state\colonel</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelState.cpp">
+      <Filter>state\colonel</Filter>
+    </ClCompile>
+    <ClCompile Include="HitState.cpp">
+      <Filter>state\rockman</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierAttack.cpp">
+      <Filter>state\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierIdle.cpp">
+      <Filter>state\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierState.cpp">
+      <Filter>state\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierThrow.cpp">
+      <Filter>state\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBlastIdle.cpp">
+      <Filter>state\trapblast</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBlastAttack.cpp">
+      <Filter>state\trapblast</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBlastState.cpp">
+      <Filter>state\trapblast</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileObj.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="HealPack.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RockMan.cpp">
+      <Filter>2DGameFramework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnBehavior.cpp">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBehavior.cpp">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBehavior.cpp">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBehavior.cpp">
+      <Filter>2DGameFramework\Component\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivateBomb.cpp">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBlastProjectile.cpp">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightProjectile.cpp">
+      <Filter>2DGameFramework\Component\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeOverlap.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathBubble.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlap.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowManager.cpp">
+      <Filter>2DGameFramework\Component\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Colonel.cpp">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCarrier.cpp">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCarrierSpawner.cpp">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBlast.cpp">
+      <Filter>2DGameFramework\Component\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ColonelHpBar.cpp">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning.cpp">
+      <Filter>2DGameFramework\Component\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
